@@ -1,0 +1,51 @@
+{
+  "name": "git-commit-msg-cli",
+  "version": "1.0.0",
+  "description": "An enhanced CLI tool for generating conventional commit messages.",
+  "main": "index.js",
+  "bin": {
+    "gcm": "index.js"
+  },
+  "scripts": {
+    "commit": "node index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "echo \"No tests yet\""
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "cli",
+    "gcc",
+    "conventional-commits",
+    "automation",
+    "dev-tools"
+  ],
+  "author": {
+    "name": "Abhijith Babu",
+    "email": "abijithb2002@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abijithbabu/Commit-CLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abijithbabu/Commit-CLI/issues"
+  },
+  "homepage": "https://github.com/Abijithbabu/Commit-CLI#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "child_process": "^1.0.2",
+    "inquirer": "^9.2.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.0"
+  }
+}
