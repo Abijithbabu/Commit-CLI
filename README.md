@@ -1,3 +1,9 @@
+You can install Enhanced Commit CLI globally using npm:
+
+```sh
+npm i -g git-commit-msg-cli
+```
+
 # Enhanced Commit CLI
 
 Enhanced Commit CLI is a powerful command-line tool designed to help developers generate meaningful and conventional commit messages based on their staged changes. It automatically analyzes modified files and suggests appropriate commit messages following best practices.
@@ -15,7 +21,7 @@ Enhanced Commit CLI is a powerful command-line tool designed to help developers 
 You can install Enhanced Commit CLI globally using npm:
 
 ```sh
-npm i git-commit-msg-cli
+npm i -g git-commit-msg-cli
 ```
 
 ## Usage
