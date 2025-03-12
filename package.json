@@ -2,6 +2,7 @@
   "name": "git-commit-msg-cli",
   "version": "1.0.1",
   "description": "An enhanced CLI tool for generating conventional commit messages.",
+  "type": "module",
   "main": "index.js",
   "bin": {
     "gcm": "index.js"
